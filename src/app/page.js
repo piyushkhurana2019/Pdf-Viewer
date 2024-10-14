@@ -1,5 +1,4 @@
-// app/page.js
-'use client'; // Enable client-side rendering
+'use client';
 
 import { useState } from 'react';
 import styles from './Home.module.css';
@@ -20,7 +19,7 @@ export default function Home() {
 
   const handleUpload = (event) => {
     event.preventDefault();
-    // You can implement additional logic for handling the uploaded file if needed
+
   };
 
   return (
